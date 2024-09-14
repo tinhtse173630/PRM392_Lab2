@@ -17,7 +17,7 @@ import java.util.Random;
 public class Activity1 extends AppCompatActivity {
 
     //Khai bao
-    EditText enum1,enum2;
+    EditText enum1, enum2;
     Button btn1;
     TextView tanswer;
 
@@ -41,11 +41,12 @@ public class Activity1 extends AppCompatActivity {
                 int min = Integer.parseInt(enum1.getText().toString());
                 int max = Integer.parseInt(enum2.getText().toString());
                 //
-                int org = random.nextInt((max-min)+1)+min;
+                int org = random.nextInt((max - min) + 1) + min;
                 //
                 String result = String.valueOf(org);
                 System.out.println(result);
                 tanswer.setText(result);
             }
+        });
     }
 }
