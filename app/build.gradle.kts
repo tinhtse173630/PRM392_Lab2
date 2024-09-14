@@ -8,8 +8,8 @@ android {
 
     defaultConfig {
         applicationId = "com.exercise.lab2"
-        minSdk = 16
-        targetSdk = 34
+        minSdk = 19
+        targetSdk = 28
         versionCode = 1
         versionName = "1.0"
 
