@@ -21,16 +21,10 @@
           </targets>
         </DialogSelection>
       </SelectionState>
-      <SelectionState runConfigName="Activity2">
+      <SelectionState runConfigName="MainActivity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="Activity1">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="LoginActivity">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="Activity3_SignIn">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
